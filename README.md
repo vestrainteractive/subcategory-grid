@@ -10,6 +10,9 @@ This WordPress plugin displays a responsive grid of subcategories (or any hierar
 - Responsive grid layout
 - Server-side caching with WordPress transients
 
+## REQUIREMENTS
+In order for featured images to work, you MUST use the Categories Images plugin.  This can be found at https://wordpress.org/plugins/categories-images/
+
 ## Installation
 
 1. Upload the plugin to `/wp-content/plugins/subcategory-grid-shortcode/`
@@ -24,5 +27,4 @@ Shortcode example:
 [subcat_grid term_id="4" taxonomy="category" cache_ttl="3600"]
 
 
-## REQUIREMENTS
-In order for featured images to work, you MUST use the Categories Images plugin.  This can be found at https://wordpress.org/plugins/categories-images/
+
