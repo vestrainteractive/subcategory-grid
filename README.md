@@ -22,3 +22,6 @@ Shortcode example:
 
 ```shortcode
 [subcat_grid term_id="4" taxonomy="category" cache_ttl="3600"]
+
+## REQUIREMENTS
+In order for featured images to work, you MUST use the Categories Images plugin.  This can be found at https://wordpress.org/plugins/categories-images/
